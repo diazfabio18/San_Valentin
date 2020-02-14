@@ -1,0 +1,65 @@
+html {
+    background: url("rosa-1f339.svg") left top repeat-y,
+      hsl(105, 80%, 85%) url("tulipan-1f337.svg") right top repeat-y;
+    padding: 0 70px;
+  }
+
+
+  #encabezado{
+    width: 50%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #reconocimiento{
+    width: 60%;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  #tabla{
+    width: 50%;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  #cuerpo{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 5px;
+    display: inline-block;
+  }
+
+  #lateral{
+    width: 60%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+  }
+
+  #carta{
+    width: 70%;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+#parrafo{
+    text-align: center;
+    font-size: 20px;
+    color: seashell;
+}
+
+#interes{
+    width: 60%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+  }
+
+  body{
+      /*background-color: rgb(243, 88, 217);*/
+      background-image: url("corazones.jpg");
+  }
