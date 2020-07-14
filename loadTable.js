@@ -1,14 +1,7 @@
-//var tabla = require('./data.json');
-
 /*fetch("data.json")
     .then(response => response.json())
     .then(datos => console.log(datos))
 */
-//console.log(tabla)
-
-//console.log(tabla[0])
-
-//console.log(tabla[0].number)
 
 var tbodyw = document.getElementById('tabla-numeros');
 
