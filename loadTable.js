@@ -1,10 +1,18 @@
-/*fetch("data.json")
+fetch("data.json")
     .then(response => response.json())
-    .then(datos => console.log(datos))
-*/
+    .then(datos => {console.log(datos)
+
 
 var tbodyw = document.getElementById('tabla-numeros');
 
+tbodyw.innerHTML += `   <tr>
+        <th scope="row">${datos[0].date}</th>
+        <td>${datos[0].number}</td>
+        <td>${datos[0].place}</td>
+        </tr>
+`;
+
+    })
 //console.log(tbodyw);
 
 /*
