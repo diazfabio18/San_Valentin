@@ -89,12 +89,62 @@
     "place": "Facebook"
 },
 {
-    "date": "29/06/2020",
-    "number": 37,
+    "date": "06/03/2020",
+    "number": 19,
+    "place": "Instagram"
+},
+{
+    "date": "11/03/2020",
+    "number": 20,
+    "place": "Instagram"
+},
+{
+    "date": "14/03/2020",
+    "number": 21,
+    "place": "Instagram"
+},
+{
+    "date": "19/03/2020",
+    "number": 22,
+    "place": "Fyluj"
+},
+{
+    "date": "23/03/2020",
+    "number": 23,
+    "place": "Website Tmotn"
+},
+{
+    "date": "25/03/2020",
+    "number": 24,
     "place": "Tmotn"
 },
 {
-    "date": "01/07/2020",
-    "number": 37.1,
+    "date": "26/03/2020",
+    "number": 25,
     "place": "Tmotn"
-}]
+},
+{
+    "date": "26/03/2020",
+    "number": 25.1,
+    "place": "Tmotn"
+},
+{
+    "date": "29/03/2020",
+    "number": 25.2,
+    "place": "Instagram"
+},
+{
+    "date": "31/03/2020",
+    "number": 25.3,
+    "place": "Tmotn"
+},
+{
+    "date": "02/04/2020",
+    "number": 26,
+    "place": "Tmotn"
+},
+{
+    "date": "11/03/2020",
+    "number": 20,
+    "place": "Instagram"
+},]
