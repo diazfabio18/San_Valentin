@@ -10,6 +10,74 @@
 </head>
 <body>
 
+  <ul class="nav fixed-top justify-content-center fixed">
+    <li class="nav-item">
+      <a class="nav-link active" href="#sec1">Inicio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#sec2">Regalo</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#sec3">Mensaje</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#sec4" tabindex="-1">Tabla</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#sec5" tabindex="-1">Contacto</a>
+    </li>
+  </ul>
+
+  <div class="container">
+
+  <section id="sec1">
+    <div class="contenedor-texto">
+        <h2>San Valentin</h2>
+        <p>Página web diseñada para una persona especial</p>
+        <a href="#sec2">Ver mas</a>
+    </div>
+    <img src="img/piano.png" alt="">
+  </section>
+
+  <section id="sec2">
+      <div class="contenedor-texto">
+          <h2>¡Felicidades!</h2>
+          <p>En verdad eres una persona única, y por eso esto es para tí</p>
+          <a href="#sec3">Section 3</a>
+      </div>
+      <img src="img/rosa14.jpg" alt="">
+  </section>
+
+  <section id="sec3">
+      <div class="contenedor-texto">
+          <h2>Tmotn</h2>
+          <p>Un sitio web dedicado sólo a nosotros dos</p>
+          <a href="#sec4">Section 4</a>
+      </div>
+      <img src="img/logo_tmotn_fin2.png" alt="">
+  </section>
+
+  <section id="sec4">
+    <div class="contenedor-texto">
+        <h2>Section 4</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, voluptatibus!</p>
+        <a href="#sec5">Section 5</a>
+    </div>
+    <img src="img/rosa-roja_bg.jpg" alt="">
+  </section>
+
+  <section id="sec5">
+    <div class="contenedor-texto">
+        <h2>Section 5</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, voluptatibus!</p>
+        <a href="#sec1">Section 1</a>
+    </div>
+    <img src="img/rosa-roja_bg.jpg" alt="">
+  </section>
+
+</div>
+
+  <!--
     <div class="alert alert-danger" role="alert" id="encabezado">
         ¡Feliz día de San Valentin!
       </div> 
@@ -91,19 +159,6 @@
       </div>
     </div>
       <br><br><br>
-
-<!--
-<div class="contenedor">
-  <form action="http://formspree.io/diaz_fabio14@hotmail.com" method="POST">
-    <p>¿Quieres decirme algo? puedes dejar aquí tu mensaje</p>
-    <p>Correo: <br><p>
-    <input type="email" name="_replyto" class="field">
-     <p>Mensaje: </p>
-    <textarea   name="body" class="field"></textarea>
-    <br><br><input type="submit" value="Enviar" id="boton">
-  </form>
-</div>
--->
 
       <div class="contenedor">
       <div id="tabla">
@@ -342,8 +397,122 @@
         <div id="parrafo">
             <strong>Desarrollado por Fabio Díaz - Febrero 2020 - 14</strong>
     </div>
-    </footer>
+    </footer> 
   </div>
+
+</div>
+
+-->
+
+  <style>
+    .nav{
+      background: pink;
+      margin: 0;
+    }
+    .nav-link{
+      font-size: 25px;
+      color: white;
+      margin: 6px;
+    }
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+section{
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    align-items: center;
+}
+
+section h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+p{
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+section img{
+    width: 300px;
+    height: auto;
+    /*height: 300px;*/
+    /*display: flex;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    align-items: center;*/
+}
+
+section a{
+    display: inline-block;
+    padding: 7px 0;
+    color: #283773;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background: #fff;
+}
+
+section:nth-child(1){
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+section:nth-child(2){
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+section:nth-child(3){
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+
+section:nth-child(4){
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+section:nth-child(5){
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+
+
+@media screen and (max-width: 1000px){
+    section{
+        flex-direction: column-reverse;
+
+    }
+
+    /*section > img{
+        height: 40%;
+    }*/
+
+    .contenedor-texto{
+        text-align : center;
+    }
+
+}
+
+/*
+@media screen and (max-width: 600px){
+    section > img{
+        height: 25%;
+    }
+    
+}*/
+  </style>
 
   
 </body>
