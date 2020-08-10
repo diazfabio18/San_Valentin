@@ -13,7 +13,7 @@
     margin: 0;
   }
   .nav-link{
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     margin: 6px;
   }
@@ -24,6 +24,11 @@ section{
   justify-content: space-evenly;
   padding: 0 40px;
   align-items: center;
+  color: white;
+}
+
+.container:nth-child(2){
+  margin-top: 100px;
 }
 
 section h2{
@@ -69,6 +74,7 @@ section:nth-child(3){
 
 section:nth-child(4){
   background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  height: auto;
 }
 
 section:nth-child(5){
@@ -82,20 +88,8 @@ section:nth-child(5){
 
   }
 
-  section > img{
-      height: 40%;
-  }
-
   .contenedor-texto{
       text-align : center;
   }
 
-}
-
-
-@media screen and (max-width: 600px){
-  section > img{
-      height: 25%;
-  }
-  
 }
