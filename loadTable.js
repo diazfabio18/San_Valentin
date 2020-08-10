@@ -12,7 +12,7 @@ tbodyw.innerHTML += `   <tr>
         <td>${datos[0].place}</td>
         </tr>
 `;*/
-
+ 
 datos.map( function(item,index,array){
     /*tbodyw.innerHTML += `<tr>`;
     tbodyw.innerHTML += `<th scope="row">${item.date}</th>`;
