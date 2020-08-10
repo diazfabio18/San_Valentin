@@ -14,11 +14,17 @@ tbodyw.innerHTML += `   <tr>
 `;*/
 
 datos.map( function(item,index,array){
-    tbodyw.innerHTML += `<tr>`;
+    /*tbodyw.innerHTML += `<tr>`;
     tbodyw.innerHTML += `<th scope="row">${item.date}</th>`;
     tbodyw.innerHTML += `<td>${item.number}</td>`;
     tbodyw.innerHTML += `<td>${item.place}</td>`;
-    tbodyw.innerHTML += `</tr>`;
+    tbodyw.innerHTML += `</tr>`;*/
+
+    tbodyw.innerHTML += `<tr>
+    <th scope="row">${item.date}</th>
+    <td>${item.number}</td>
+    <td>${item.place}</td>
+    </tr>`;
 }
 );
 
