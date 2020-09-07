@@ -13,6 +13,7 @@ body{
   background-attachment:fixed;
 }
 
+
   #encabezado{
     width: 100%;
     height: 60px;
@@ -155,3 +156,62 @@ form textarea{
   border: solid 1px #ccc;
 
 }
+
+.particles-js{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+}
+
+.section{
+  z-index: 4;
+}
+
+
+/* CONTACT */
+
+.icon{
+    font-size: 100px;
+}
+
+@media screen and (max-width: 600px){
+    .icon{
+        font-size: 50px;
+    }
+}
+
+.fa-heart{
+    color: red;
+}
+
+a > span:hover{
+    font-size: 22px;
+}
+
+.radius{
+    border-radius: 30px;
+    font-size: 22px;
+    
+}
+
+.nav-item:hover{
+    /*background: rgb(250,0,101);*/
+    border-bottom: 4px solid rgb(69,203,236);
+}
+
+footer{
+    background: rgb(202,23,101);
+}
+
+footer> .row{
+    align-items: center;
+    background: rgb(202,23,101);
+}
+
+
+
+
+
+

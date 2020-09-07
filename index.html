@@ -1,122 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-bootstrap.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/95137fcb9f.js" crossorigin="anonymous"></script>
     <title>¡Feliz San Valentin!</title>
     <link rel="shortcut icon" href="./img/red_heart.ico" type="image/x-icon">
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="style-bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-heart"></i> <span>¡Feliz San Valentín!</span></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fas fa-bars text-white"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#sec1">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#sec2">Regalo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#sec3">Tmotn?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#sec4" >Tabla</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#sec5" >Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!--<div id="particles-js">-->
+
+    <div class="container-fluid mt-5">
+
+        <section id="sec1">
+            <div class="contenedor-texto">
+                <h2>San Valentin</h2>
+                <p>Página web diseñada para una persona especial</p>
+                <a href="#sec2" class="btn btn-primary btn-lg radius pl-4 pr-4 mt-2">Ver mas</a>
+            </div>
+            
+            <iframe src="https://www.youtube.com/embed/QGCOGRWAcSs" width="480" height="400"></iframe>
+        </section>
+
+        <section id="sec2">
+            <div class="contenedor-texto">
+                <h2>¡Felicidades!</h2>
+                <p>En verdad eres una persona única, y por eso esto es para tí</p>
+                <a href="https://www.instagram.com/juliettavar/?hl=es-la" class="btn btn-primary btn-lg radius pl-4 pr-4 mt-2">Tu (?</a>
+            </div>
+            <img src="img/rosa14.jpg" alt="">
+        </section>
+
+        <section id="sec3">
+            <div class="contenedor-texto">
+                <h2>Tmotn</h2>
+                <p>Un sitio web dedicado sólo a nosotros dos</p>
+                <a href="https://diazfabio18.github.io/Tmotn/" class="btn btn-primary btn-lg radius pl-4 pr-4 mt-2">Tmotn</a>
+            </div>
+            <img src="img/logo_tmotn_fin2.png" alt="">
+        </section>
+
+        <section id="sec4">
+            <div class="contenedor-texto">
+                <h2>Lista de numeros</h2>
+                <p>Cada número es un misterio por ver...</p>
+            </div>
+
+            <div class="contenedor">
+                <div id="tabla">
+                    <table class="table table-striped table-dark" class="tabla">
+                        <thead>
+                            <tr>
+                                <th scope="col">Fecha</th>
+                                <th scope="col">Número</th>
+                                <th scope="col">Ubicación</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="tabla-numeros"></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec5">
+            <div class="contenedor-texto">
+                <h2 class="text-center">Contacto</h2>
+                <p class="text-center mt-3 mb-4">Sigueme en mis redes</p>
+
+
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <a href="https://www.github.com/diazfabio18" style="text-decoration: none; color:white;">
+                            <i class="fab fa-github icon"></i>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.instagram.com/fl_diaz/" style="text-decoration: none; color:white;">
+                            <i class="fab fa-instagram icon"></i>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.facebook.com/fl.diaz.3" style="text-decoration: none; color:white;">
+                            <i class="fab fa-facebook icon" ></i>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.linkedin.com/in/diazfabio" style="text-decoration: none; color:white;">
+                            <i class="fab fa-linkedin icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
     
-    <div class="container">
-      <a class="navbar-brand" href="#">¡Feliz San Valentín!</a>
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto" >
+    <footer class="container-fluid pt-3 text-white">
+        <div class="row justify-content-center align-items-center">
+            <div class="col">
+                <p>Feliz San Valentin</p>
+            </div>
+            <div class="col">
+                <p>© 2020. Desarrollado por Fyluj</p>
+            </div>
+        </div>
+    </footer>
 
-          <li class="nav-item">
-            <a class="nav-link active" href="#sec1">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#sec2">Regalo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#sec3">Tmotn?</a>
-          </li>
-          <li class="nav-item" >
-            <a class="nav-link active" href="#sec4" tabindex="-1">Tabla</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#sec5" tabindex="-1">Contacto</a>
-          </li>
-        </ul>
-      </div>
 
-    </div>
-
-  </nav>
-
-  <div class="container">
-
-  <section id="sec1">
-    <div class="contenedor-texto">
-        <h2>San Valentin</h2>
-        <p>Página web diseñada para una persona especial</p>
-        <a href="#sec2">Ver mas</a>
-    </div>
-    <!-- <img src="img/piano.png" alt=""> -->
-    <iframe src="https://www.youtube.com/embed/QGCOGRWAcSs" width="400" height="380" ></iframe>
-  </section>
-
-  <section id="sec2">
-      <div class="contenedor-texto">
-          <h2>¡Felicidades!</h2>
-          <p>En verdad eres una persona única, y por eso esto es para tí</p>
-          <a href="https://www.instagram.com/juliettavar/?hl=es-la">Tu (?</a>
-      </div>
-      <img src="img/rosa14.jpg" alt="">
-  </section>
-
-  <section id="sec3">
-      <div class="contenedor-texto">
-          <h2>Tmotn</h2>
-          <p>Un sitio web dedicado sólo a nosotros dos</p>
-          <a href="https://diazfabio18.github.io/Tmotn/">Tmotn</a>
-      </div>
-      <img src="img/logo_tmotn_fin2.png" alt="">
-  </section>
-
-  <section id="sec4">
-    <div class="contenedor-texto">
-       <h2>Lista de numeros</h2>
-        <p>Cada número es un misterio por ver...</p>
-    </div>
-
-    <div class="contenedor">
-      <div id="tabla">
-        <table class="table table-striped table-dark" class="tabla">
-            <thead>
-              <tr>
-                <th scope="col">Fecha</th>
-                <th scope="col">Número</th>
-                <th scope="col">Ubicación</th>
-              </tr>
-            </thead>
-
-            <tbody id="tabla-numeros">
-              
-            </tbody>
-          </table>
-  </section>
-
-  <section id="sec5">
-    <div class="contenedor-texto">
-        <h2>Contacto</h2>
-        <p>Sigueme en mis redes</p>
-
-        <!--
-        <a href="https://www.instagram.com/fl_diaz/"><img src="https://img.icons8.com/cute-clipart/128/000000/instagram-new.png"></a>
-    
-        <a href="https://www.facebook.com/fl.diaz.3"><img src="https://img.icons8.com/bubbles/128/000000/facebook-new.png"></a>
-
-        <a href="https://www.linkedin.com/in/fabiodiaz22"><img src="https://img.icons8.com/cute-clipart/128/000000/linkedin.png"></a>
-        --> 
-    </div>
-  </section>
-
-</div>
-
-  <!--
+    <!--
     <div class="alert alert-danger" role="alert" id="encabezado">
         ¡Feliz día de San Valentin!
       </div> 
@@ -438,12 +476,15 @@
 
 -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
-   <script src="loadTable.js"></script>
+    <script src="main.js"></script>
+
+    <script src="loadTable.js"></script>
 </body>
+
 </html>

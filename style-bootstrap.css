@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+a:hover{
+    text-decoration: none;
+}
   
   html{
     scroll-behavior: smooth;
@@ -15,8 +19,9 @@
   .nav-link{
     font-size: 18px;
     color: white;
-    margin: 6px;
+    margin: 1px;
   }
+
 
 section{
   height: 650px;
@@ -48,7 +53,7 @@ section img{
   height: auto;
 }
 
-section a{
+section > a{
   display: inline-block;
   padding: 7px 0;
   color: #283773;
