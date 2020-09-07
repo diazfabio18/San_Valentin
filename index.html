@@ -19,10 +19,10 @@
     <link rel="shortcut icon" href="./img/red_heart.ico" type="image/x-icon" />
     <!-- Styles CSS -->
     <link rel="stylesheet" href="style-bootstrap.css" />
-    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div class="container">
@@ -69,21 +69,30 @@
 
     <!-- SECTIONS -->
 
-    <div class="container-fluid mt-5" >
-      <section id="sec1">
-        <div class="contenedor-texto">
-          <h2>San Valentin <span class="typed numbers"></span></h2>
-          <p>Página web diseñada para una persona especial</p>
-          <a href="#sec2" class="btn btn-primary btn-lg radius pl-4 pr-4 mt-2"
-            >Ver mas</a
-          >
+    <main class="container-fluid mt-5" >
+      <section class="row" id="sec1">
+
+        <div class="col">
+          
+          <div class="contenedor-texto">
+            <h2>San Valentin <span class="typed numbers"></span></h2>
+            <p>Página web diseñada para una persona especial</p>
+            <a href="#sec2" class="btn btn-primary btn-lg radius pl-4 pr-4 mt-2"
+              >Ver mas</a
+            >
+          </div>
+        </div>
+        <div class="col">
+          <iframe
+            src="https://www.youtube.com/embed/QGCOGRWAcSs"
+            width="480"
+            height="400"
+          ></iframe>
+
         </div>
 
-        <iframe
-          src="https://www.youtube.com/embed/QGCOGRWAcSs"
-          width="480"
-          height="400"
-        ></iframe>
+
+
       </section>
 
       <section id="sec2">
@@ -179,341 +188,20 @@
           </div>
         </div>
       </section>
-    </div>
+    </main>
 
-    <footer class="container-fluid pt-3 text-white">
+    <footer class="container-fluid p-3 text-white">
       <div class="row justify-content-center align-items-center">
-        <div class="col">
+        <div class="col-lg-5 col-sm-12 ">
           <p>Feliz San Valentin</p>
         </div>
-        <div class="col">
-          <p>© 2020. Desarrollado por Fyluj</p>
+        <div class="col-lg-5 col-sm-12">
+          <p class="text-right mr-3">© 2020. Desarrollado por Fyluj</p>
         </div>
       </div>
     </footer>
 
 
-    <!--
-    <div class="alert alert-danger" role="alert" id="encabezado">
-        ¡Feliz día de San Valentin!
-      </div> 
-<br><br>
-<div class="contenedor">
-      <div id="parrafo">
-    <p><strong>Sitio web diseñado desde cero especialmente para este día.
-        Y sin usar paginas prediseñadas :) .</strong></p>
-          <br><strong>Tabla actualizada al 15/04/2020 .</strong></p>
-          <br><strong>22/03/2020 Atención: Debido a la situación mundial actual
-          estaré comunicandome a través de este medio o cualquier otro
-        que construya</strong>
-        <br><strong>30/03/2020 Novedades en <a href="https://diazfabio18.github.io/Tmotn/">Tmo_tn</a></strong>
-</div>
-</div>
-
-
-<div id="cuerpo">
-<div class="contenedor">
-    <div class="card" id="carta">
-        <img src="./img/rosa14.jpg" class="card-img-top" alt="San Valentin">
-        <div class="card-body">
-          <h5 class="card-title">¡Felicidades!</h5>
-          <p class="card-text">Has sabido hacerte valer y respetar como persona,
-              y has crecido como profesional. Por eso, nadie merece esto mas que tú.
-              
-          </p>
-          <a href="https://www.instagram.com/juliettavar/?hl=es-la" class="btn btn-primary">Tu perfil</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="dob">
-    <div class="contenedor" id="red">
-      <div id="parrafo"><p ><strong>Mis redes!</strong></p></div>
-      <div id="lateral">
-
-        <a href="https://www.instagram.com/fl_diaz/"><img src="https://img.icons8.com/cute-clipart/128/000000/instagram-new.png"></a>
-    
-        <a href="https://www.facebook.com/fl.diaz.3"><img src="https://img.icons8.com/bubbles/128/000000/facebook-new.png"></a>
-
-        <a href="https://www.linkedin.com/in/fabiodiaz22"><img src="https://img.icons8.com/cute-clipart/128/000000/linkedin.png"></a>
-
-        </div>
-      </div>
-
-      <div class="contenedor" id="ints">
-        <div id="parrafo"><p ><strong>Sitios de interes</strong></p></div>
-        <div id="interes">
-            
-    
-            <a href="https://www.instagram.com/lavidaesdulcedeleche/?hl=es-la"><img src="https://img.icons8.com/cute-clipart/128/000000/instagram-new.png"></a>
-
-            <a href="https://www.youtube.com/channel/UCo4y77YI2ZurvvABWIq9oOQ/videos?disable_polymer=1"><img src="https://img.icons8.com/cute-clipart/128/000000/youtube.png"></a>
-
-            <a href="https://jardinjapones.org.ar/"><img src="https://img.icons8.com/cute-clipart/128/000000/kawaii-ice-cream.png"></a>
-
-            <a href="http://www.barriochino.net/"><img src="https://img.icons8.com/doodle/128/000000/dragon.png"></a>
-    
-            </div>
-          </div>
-
-        </div>
-
-</div>
-
-<div class="contenedor">
-      <div class="alert alert-primary" role="alert" id="reconocimiento">
-        <h4 class="alert-heading">¡Por favor quiero verte!</h4>
-        <p>
-            Todo este tiempo estuve respetando tu espacio, para que te recuperaras de mis errores.
-            <br>Es mi forma de decir lo siento por lo ocurrido post-brindis.
-          <br> Para demostrarte que en verdad me importas, cuando nos veamos traeré el sobre número 1 el cual tiene
-            la prueba mas importante de que en verdad te quiero.
-        </p>
-        <hr>
-        <p class="mb-0">Hasta entonces, puedes seguir viendo la siguiente lista de números, que demuestran que 
-          siempre pensé en ti (y lo sigo haciendo).</p>
-      </div>
-    </div>
-      <br><br><br>
-
-      <div class="contenedor">
-      <div id="tabla">
-    <table class="table table-striped table-dark" class="tabla">
-        <thead>
-          <tr>
-            <th scope="col">Fecha</th>
-            <th scope="col">Número</th>
-            <th scope="col">Ubicación</th>
-          </tr>
-        </thead>
-        <tbody id="tabla-numeros">
-          <tr>
-            <th scope="row">???</th>
-            <td>1</td>
-            <td>Oficinas (estimación)</td>
-          </tr>
-          <tr>
-            <th scope="row">17/01/2020</th>
-            <td>2</td>
-            <td>Oficinas</td>
-          </tr>
-          <tr>
-            <th scope="row">24/01/2020</th>
-            <td>3</td>
-            <td>Facebook</td>
-          </tr>
-          <tr>
-            <th scope="row">02/02/2020</th>
-            <td>4</td>
-            <td>Instagram</td>
-          </tr>
-          <tr>
-            <th scope="row">04/02/2020</th>
-            <td>5</td>
-            <td>Facebook</td>
-          </tr> 
-            <tr>
-            <th scope="row">05/02/2020</th>
-            <td>6</td>
-            <td>Instagram</td>
-          </tr>
-          <tr>
-            <th scope="row">07/02/2020</th>
-            <td>7</td>
-            <td>Instagram</td>
-          </tr>
-          <tr>
-            <th scope="row">08/02/2020</th>
-            <td>8</td>
-            <td>Facebook</td>
-          </tr>
-          <tr>
-            <th scope="row">10/02/2020</th>
-            <td>9</td>
-            <td>Facebook</td>
-          </tr>
-          <tr>
-            <th scope="row">11/02/2020</th>
-            <td>10</td>
-            <td>Instagram</td>
-          </tr>
-
-          <tr>
-            <th scope="row">11/02/2020</th>
-            <td>13</td>
-            <td>Oficinas</td>
-          </tr>
-          <tr>
-            <th scope="row">12/02/2020</th>
-            <td>11</td>
-            <td>Instagram</td>
-          </tr>
-          <tr>
-            <th scope="row">13/02/2020</th>
-            <td>12</td>
-            <td>Facebook</td>
-          </tr>
-          <tr>
-            <th scope="row">14/02/2020</th>
-            <td>14</td>
-            <td>Sitio Web</td>
-          </tr>
-            <tr>
-            <th scope="row">22/02/2020</th>
-            <td>15</td>
-            <td>Redes Sociales</td>
-          </tr>
-            <tr>
-            <th scope="row">24/02/2020</th>
-            <td>16</td>
-            <td>Fyluj</td>
-          </tr>
-             <tr>
-            <th scope="row">28/02/2020</th>
-            <td>17</td>
-            <td>Oficinas</td>
-          </tr>
-             <tr>
-            <th scope="row">02/03/2020</th>
-            <td>18</td>
-            <td>Facebook</td>
-          </tr>
-            <tr>
-            <th scope="row">06/03/2020</th>
-            <td>19</td>
-            <td>Instagram</td>
-          </tr>
-            </tr>
-            <tr>
-            <th scope="row">11/03/2020</th>
-            <td>20</td>
-            <td>Instagram</td>
-          </tr>
-          </tr>
-            <tr>
-            <th scope="row">14/03/2020</th>
-            <td>21</td>
-            <td>Instagram</td>
-          </tr>
- <tr> 
-            <th scope="row">19/03/2020</th>
-            <td>22</td>
-            <td>Fyluj</td>
-          </tr>
-
-          <tr>
-            <th scope="row">23/03/2020</th>
-            <td>23</td>
-            <td>Website Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">25/03/2020</th>
-            <td>24</td>
-            <td>Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">26/03/2020</th>
-            <td>25</td>
-            <td>Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">26/03/2020</th>
-            <td>25.1</td>
-            <td>Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">29/03/2020</th>
-            <td>25.2</td>
-            <td>Instagram</td>
-          </tr>
-
-          <tr>
-            <th scope="row">31/03/2020</th>
-            <td>25.3</td>
-            <td>Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">02/04/2020</th>
-            <td>26</td>
-            <td>Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">06/04/2020</th>
-            <td>27</td>
-            <td>Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">10/04/2020</th>
-            <td>28</td>
-            <td>Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">15/04/2020</th>
-            <td>28.1</td>
-            <td>Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">17/04/2020</th>
-            <td>28.2</td>
-            <td>Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">20/04/2020</th>
-            <td>29</td>
-            <td>Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">22/04/2020</th>
-            <td>29.1</td>
-            <td>Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">29/06/2020</th>
-            <td>37</td>
-            <td>Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">01/07/2020</th>
-            <td>37.1</td>
-            <td>Tmotn</td>
-          </tr>
-
-          <tr>
-            <th scope="row">10/07/2020</th>
-            <td>38</td>
-            <td>Tmotn</td>
-          </tr>
-
-        </tbody>
-      </table>
-
-    </div>
-  </div>
-  
-    <div class="contenedor">
-    <footer>
-        <div id="parrafo">
-            <strong>Desarrollado por Fabio Díaz - Febrero 2020 - 14</strong>
-    </div>
-    </footer> 
-  </div>
-
-</div>
-
--->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
