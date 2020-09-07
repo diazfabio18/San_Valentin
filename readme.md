@@ -12,3 +12,4 @@ This is a static page started the idea of create a server own. More details in :
 - CSS3
 - Boostrap 4
 - Vainilla JavaScript
+- typed.js
