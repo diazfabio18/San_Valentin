@@ -265,3 +265,62 @@ footer > .row {
 #sec5 a{
     text-align: center;
 }
+
+@media screen and (max-width: 500px){
+    
+    .main-title{
+        display: block;
+    }
+    
+    .typed{
+        display: inline-block;
+    }
+    
+    .carousel-item iframe{
+        width: 100%;
+        height: 80%;
+    }
+    
+    #sec2 a{
+        margin: 0 20% 0 20%;
+    }
+    
+    #sec2 img{
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    #sec3 h2{
+        text-align: center;
+    }
+    
+    #sec3 a{
+        margin: 0 20% 0 20%;
+    }
+    
+    
+    
+    #sec3 img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .contenedor{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #tabla{
+        margin: 0;
+    }
+    
+    #sec2 .contenedor-texto h2{
+        width: 100%;
+        font-size: 40px;
+    }
+    
+    .red .col-2{
+        margin-right: 5%
+    }
+}
